@@ -1,11 +1,20 @@
 import './home.css'
 import myImage from '../../imgs/profile-photo.jpeg'
+import rightArrow from '../../imgs/rightArrow.png'
 const Home = () => {
   return (
     <div>
-      <h1>Welcome</h1>
-      <h3>So nice to see you</h3>
-      <img src={myImage} alt='an images of the developer' />
+      <div className='hero-content'>
+        <img src={myImage} alt='an images of the developer' className='hero-img'/>
+        <div className='hero-text'>
+          <h1>Welcome</h1>
+          <p>Thanks for stopping by!</p>
+        </div>
+      </div>
+      <div className='bio'>
+        <p>I am a fullstack developer specializing in React, Express, SQL, CSS.</p>
+        <p>Have a glass of Dr. Pepper while you look around and enjoy!</p>
+      </div>
     </div>
   )
 };
