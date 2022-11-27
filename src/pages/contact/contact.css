@@ -1,0 +1,73 @@
+.form-container {
+    margin: 2em 3em;
+    width: 50%;
+}
+
+input, textarea{
+    display: block;
+    margin: 1em 0;
+    border: none;
+    width: 50%;
+    height: 2.5em;
+    background-color: rgb(244, 247, 251);
+    border-radius: 30px;
+    resize: none;
+    padding: 1em;
+    font-size: 1.25em
+}
+
+textarea {
+    height: 8em;
+    padding-bottom: 2em;
+}
+
+
+label {
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+button {
+    width: 25%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: #226cd4;
+    color: rgb(219, 219, 219);
+    border: none;
+    height: 2em;
+    margin-top: .5em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 149, 255);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkedin, .github {
+    width: 14%;
+    display: block;
+    margin: 2em .5em;
+    border-radius: 50em;
+    border-style: inset;
+}
+
+.social-icon-container {
+    width: 50%;
+    padding-bottom: 1em;
+}
+
+span {
+    margin-left: 2.6em;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+a {
+    display: inline;
+}
+

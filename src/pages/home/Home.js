@@ -1,6 +1,5 @@
 import './home.css'
 import myImage from '../../imgs/profile-photo.jpeg'
-import rightArrow from '../../imgs/rightArrow.png'
 const Home = () => {
   return (
     <div>
