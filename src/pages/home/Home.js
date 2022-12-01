@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div className='hero-content'>
-        <img src={myImage} alt='an images of the developer' className='hero-img'/>
+        <img src={myImage} alt='the developer' className='hero-img'/>
         <div className='hero-text'>
           <h1>Welcome to Rios Development!</h1>
           <p>My name is Rafael. Thanks for stopping by!</p>

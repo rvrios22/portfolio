@@ -1,3 +1,35 @@
+.contact-labels {
+    display: block;
+    color: #dedede;
+    font-size: 2em;
+    margin: .25em;
+    text-align: center;
+}
+
+.contact-inputs {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #aaaaaa;
+    color: #F5F6F7;
+    padding-left: .5em;
+    padding: 1em;
+    border-radius: 25px;
+    border: none;
+}
+
+
+.form-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-button {
+    display: block;
+    margin: 1em auto;
+}
+
+
+
 /* .form-container {
     margin: 2em 3em;
     width: 50%;

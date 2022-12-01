@@ -30,22 +30,22 @@ const Contact = () => {
       <div className="flex-container">
         <div className="form-container">
           <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" value={username} onChange={e => setUsername(e.target.value)} />
-            <label>Email</label>
-            <input type="email" name="user_email" value={userEmail} onChange={e => setUserEmail(e.target.value)} />
-            <label>Message</label>
-            <textarea name="message" value={userMessage} onChange={e => setUserMessage(e.target.value)} rows={16} cols={16} />
-            <button type="submit">Send</button>
+            <label className="contact-labels">Name</label>
+            <input className='contact-inputs' placeholder='Type Your Name...' type="text" name="user_name" value={username} onChange={e => setUsername(e.target.value)} />
+            <label className="contact-labels">Email</label>
+            <input className='contact-inputs' placeholder='Type Your Email...' type="email" name="user_email" value={userEmail} onChange={e => setUserEmail(e.target.value)} />
+            <label className="contact-labels">Message</label>
+            <textarea className='contact-inputs' placeholder='How can I help you?' name="message" value={userMessage} onChange={e => setUserMessage(e.target.value)} rows={4} cols={4} />
+            <button className='contact-button' type="submit">Send</button>
           </form>
         </div>
         <div className="social-icon-container">
-          <LinkedInIcon  sx={{fontSize: 200, color: 'whitesmoke'}}></LinkedInIcon>
+          <LinkedInIcon  sx={{color: 'whitesmoke'}}></LinkedInIcon>
           <div className="icon-flex">
             <h2>LinkedIn</h2>
           </div>
           <div className="icon-flex">
-            <GitHubIcon sx={{fontSize: 200, color: 'whitesmoke'}}></GitHubIcon>
+            <GitHubIcon sx={{color: 'whitesmoke'}}></GitHubIcon>
             <h2>Github</h2>
           </div>
         </div>
