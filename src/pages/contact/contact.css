@@ -13,7 +13,9 @@ input, textarea{
     border-radius: 30px;
     resize: none;
     padding: 1em;
-    font-size: 1.25em
+    font-size: 1.25em;
+    background-color: rgb(156, 157, 179);
+    box-shadow: 1px 1px 10px 1px rgb(70, 70, 70);
 }
 
 textarea {

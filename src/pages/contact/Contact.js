@@ -1,8 +1,8 @@
 import "./contact.css"
 import emailjs from "emailjs-com";
 import { useRef, useState } from "react";
-import linkedin from '../../imgs/linkedin.png'
-import github from '../../imgs/github.jpg'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
   const form = useRef();
@@ -40,17 +40,13 @@ const Contact = () => {
           </form>
         </div>
         <div className="social-icon-container">
+          <LinkedInIcon  sx={{fontSize: 200, color: 'whitesmoke'}}></LinkedInIcon>
           <div className="icon-flex">
-            <a href="https://www.linkedin.com/in/rafael-v-rios/" target='_blank' rel="noreferrer">
-              <img src={linkedin} alt=' a link to my linkedin page' className="linkedin" />
-            </a>
-            <span>LinkedIn</span>
+            <h2>LinkedIn</h2>
           </div>
           <div className="icon-flex">
-            <a href="https://github.com/rvrios22" target='_blank' rel="noreferrer">
-              <img src={github} alt='a link to my github page' className="github" />
-            </a>
-            <span>Github</span>
+            <GitHubIcon sx={{fontSize: 200, color: 'whitesmoke'}}></GitHubIcon>
+            <h2>Github</h2>
           </div>
         </div>
       </div>
