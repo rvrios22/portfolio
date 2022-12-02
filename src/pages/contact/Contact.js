@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+
 const Contact = () => {
   const form = useRef();
   const [username, setUsername] = useState('')
@@ -41,10 +42,14 @@ const Contact = () => {
         </div>
         <div className="social-icon-container">
           <div className="icon-flex">
-            <LinkedInIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></LinkedInIcon>
+            <a href="https://www.linkedin.com/in/rafael-v-rios/" rel="noreferrer" target='_blank'>
+              <LinkedInIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></LinkedInIcon>
+            </a>
           </div>
           <div className="icon-flex">
-            <GitHubIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></GitHubIcon>
+            <a href='https://github.com/rvrios22' rel="noreferrer" target='_blank'>
+              <GitHubIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></GitHubIcon>
+            </a>
           </div>
         </div>
       </div>

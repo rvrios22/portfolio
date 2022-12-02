@@ -1,0 +1,17 @@
+.rabbit-header {
+    text-align: center;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F5F6F7
+}
+
+.rabbit-bio {
+    text-align: center;
+    color: #F5F6F7
+}
+
+.rabbit-gif {
+    margin: 2em auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 2px rgb(29, 29, 29);
+}
