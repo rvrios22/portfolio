@@ -40,13 +40,11 @@ const Contact = () => {
           </form>
         </div>
         <div className="social-icon-container">
-          <LinkedInIcon  sx={{color: 'whitesmoke'}}></LinkedInIcon>
           <div className="icon-flex">
-            <h2>LinkedIn</h2>
+            <LinkedInIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></LinkedInIcon>
           </div>
           <div className="icon-flex">
-            <GitHubIcon sx={{color: 'whitesmoke'}}></GitHubIcon>
-            <h2>Github</h2>
+            <GitHubIcon sx={{ fontSize: "2.5em", color: 'whitesmoke' }}></GitHubIcon>
           </div>
         </div>
       </div>

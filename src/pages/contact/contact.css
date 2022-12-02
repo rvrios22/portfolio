@@ -12,9 +12,10 @@
     background-color: #aaaaaa;
     color: #F5F6F7;
     padding-left: .5em;
-    padding: 1em;
+    padding: .75em;
     border-radius: 25px;
     border: none;
+    font-size: 1.25em;
 }
 
 
@@ -26,82 +27,24 @@
 .contact-button {
     display: block;
     margin: 1em auto;
-}
-
-
-
-/* .form-container {
-    margin: 2em 3em;
-    width: 50%;
-}
-
-input, textarea{
-    display: block;
-    margin: 1em 0;
+    width: 65%;
     border: none;
-    width: 66%;
-    height: 2.5em;
-    background-color: rgb(244, 247, 251);
-    border-radius: 30px;
-    resize: none;
-    padding: 1em;
-    font-size: 1.25em;
-    background-color: rgb(156, 157, 179);
-    box-shadow: 1px 1px 10px 1px rgb(70, 70, 70);
-}
-
-textarea {
-    height: 8em;
-    padding-bottom: 2em;
-}
-
-
-label {
-    font-size: 2em;
-    color: whitesmoke;
-}
-
-button {
-    width: 25%;
-    font-size: 1.5em;
-    border-radius: 20px;
-    background-color: #226cd4;
-    color: rgb(219, 219, 219);
-    border: none;
-    height: 2em;
-    margin-top: .5em;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: rgb(0, 149, 255);
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.linkedin, .github {
-    width: 14%;
-    display: block;
-    margin: 2em .5em;
-    border-radius: 50em;
-    border-style: inset;
+    border-radius: 25px;
+    background-color: #0e5ba8;
+    box-shadow: 1px 1px 5px #323232;
+    color: #F5F6F7;
 }
 
 .social-icon-container {
-    width: 50%;
-    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 2.5em;
 }
 
-span {
-    margin-left: 2.6em;
-    color: whitesmoke;
-    font-size: 1.5em;
+.icon-flex {
+    padding: auto;
+    margin: 0 .5em;
 }
-
-a {
-    display: inline;
-}
- */

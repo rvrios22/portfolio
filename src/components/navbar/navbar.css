@@ -1,11 +1,25 @@
-.list-item {
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient( 
+        to right, 
+        #708090,
+        #003277
+    );
+    height: 3em;
+    border: none;
+}
+
+
+.nav-link {
     list-style: none;
     display: inline;
-    padding-left: 3em;
+    padding-left: 1.5em;
     font-size: 1.2em;
 }
 
-.list-item:last-child {
+.nav-link:last-child {
     margin-right: 1em;
 }
 
@@ -23,17 +37,5 @@ a:visited {
 
 a:hover {
     color: rgb(0, 185, 231);
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: linear-gradient( 
-        to right, 
-        #708090,
-        #003277
-    );
-    height: 3em;
 }
 

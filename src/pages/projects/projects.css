@@ -9,6 +9,9 @@
     color: #F5F6F7;
     background-color: rgb(96, 96, 96);
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project-titles {
@@ -27,4 +30,8 @@
 
 .bottom-spacer {
     height: .1em;
+}
+
+@media (min-width: 650px){
+    
 }
