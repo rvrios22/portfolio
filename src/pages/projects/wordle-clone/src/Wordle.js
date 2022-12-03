@@ -89,8 +89,8 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <header>
+    <div className="wordle-app-container">
+      <header className='wordle-app-header'>
         <h1>Wordle</h1>
       </header>
       <AppContext.Provider value={{
@@ -108,9 +108,7 @@ function App() {
         gameOver
       }}>
         <div className='game'>
-
           <Board />
-
           {gameOver.gameOver ? <GameOver className='gameOver' /> : <Keyboard />}
         </div>
       </AppContext.Provider>

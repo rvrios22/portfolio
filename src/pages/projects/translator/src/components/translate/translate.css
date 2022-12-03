@@ -41,30 +41,14 @@ Button {
     border: none;
     width: 25%;
     height: 2em;
-}
-/* 
+    box-shadow: 2px 2px 4px 1px rgb(27, 27, 27);
+    background-color: #000000;
+    color: #F5F6F7;
 
-.header {
-    font-family: 'Azeret Mono', monospace;
-}
-
-
-
-
-
-
-.language-selector{
-    width: 60%;
-    text-align: center;
 }
 
-Form > .form-child {
-    margin-bottom: 1em;
+Button:hover {
+    cursor: pointer;
+    background-color: #F5F6F7;
+    color: #000000;
 }
-
-Button {
-    background-color: rgb(223, 233, 133);
-    border-radius: 10px;
-    width: 15%;
-    height: 2em;
-} */
