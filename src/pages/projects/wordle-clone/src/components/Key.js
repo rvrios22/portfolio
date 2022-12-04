@@ -4,9 +4,9 @@ import { AppContext } from '../Wordle';
 function Key({ keyVal, bigKey, disabled }) {
     const { onEnter, onDelete, onSelectLetter } = useContext(AppContext)
     const selectLetter = () => {
-        if (keyVal === 'ENTER') {
+        if (keyVal === 'ENT') {
             onEnter()
-        } else if (keyVal === 'DELETE') {
+        } else if (keyVal === 'DEL') {
             onDelete()
         } else {
             onSelectLetter(keyVal)

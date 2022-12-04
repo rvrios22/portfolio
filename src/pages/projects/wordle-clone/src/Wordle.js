@@ -9,7 +9,7 @@ import { createContext, useEffect, useState } from 'react';
 export const AppContext = createContext()
 
 function App() {
-  const [board, setBoard] = useState(boardDefault)
+  const [board, setBoard] = useState(boardDefault) 
   const [currAttempt, setCurrAttempt] = useState({ attempt: 0, letterPos: 0 })
   const [wordSet, setWordset] = useState(new Set())
   const [disabledLetters, setDisabledLetters] = useState([])
@@ -41,7 +41,6 @@ function App() {
   }
   const onEnter = () => {
     if (currAttempt.letterPos !== 5) return
-
     let currWord = ''
     for (let i = 0; i < 5; i++) {
       currWord += board[currAttempt.attempt][i]
