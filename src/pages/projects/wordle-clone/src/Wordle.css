@@ -20,7 +20,7 @@
   height: 55vh;
   display: flex;
   flex-direction: column;
-  max-width: 620px;
+  max-width: 600px;
 }
 
 .row {
