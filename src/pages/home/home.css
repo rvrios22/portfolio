@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-.hero-text > p {
+.hero-text>p {
     margin-top: .5em;
     font-size: 1.25em;
     text-align: center;
@@ -27,6 +27,26 @@
     width: 80%;
 }
 
-.bio > p {
+.bio>p {
     margin-bottom: 1em;
+}
+
+.resume-download-header {
+    text-align: center;
+    font-size: 2em;
+    color: #F5F6F7;
+    position: fixed;
+    bottom: 0px;
+    margin: .5em auto;
+    width: 100%;
+}
+
+.resume-download-header>.resume-download {
+    text-decoration: underline;
+    color: rgb(0, 185, 231);
+}
+
+.resume-download-header>.resume-download:hover {
+    color: #F5F6F7;
+    text-decoration: none;
 }

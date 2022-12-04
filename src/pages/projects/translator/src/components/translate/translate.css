@@ -36,7 +36,7 @@ textarea {
     width: 100%;
 }
 
-Button {
+.translate-button {
     border-radius: 20px;
     border: none;
     width: 25%;
@@ -47,7 +47,7 @@ Button {
 
 }
 
-Button:hover {
+.translate-button:hover {
     cursor: pointer;
     background-color: #F5F6F7;
     color: #000000;

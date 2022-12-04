@@ -1,6 +1,6 @@
 .contact-labels {
     display: block;
-    color: #dedede;
+    color: #F5F6F7;
     font-size: 2em;
     margin: .25em;
     text-align: center;
@@ -9,8 +9,8 @@
 .contact-inputs {
     margin: 0 auto;
     width: 80%;
-    background-color: #aaaaaa;
-    color: #F5F6F7;
+    background-color: #F5F6F7;
+    color: black;
     padding-left: .5em;
     padding: .75em;
     border-radius: 25px;

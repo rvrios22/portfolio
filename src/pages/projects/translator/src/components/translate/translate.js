@@ -82,13 +82,7 @@ const Translate = () => {
                         placeholder='Translation...'
                         value={resultText}
                     />
-                    <Button 
-                    basic
-                    color="orange"
-                    onClick={translateText}
-                    >   <Icon name="translate" />
-                        Translate
-                    </Button>
+                    <button className='translate-button' onClick={translateText}>Translate</button>
                 </Form>
             </main>
         </div>

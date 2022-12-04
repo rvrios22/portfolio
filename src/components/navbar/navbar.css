@@ -39,3 +39,57 @@ a:hover {
     color: rgb(0, 185, 231);
 }
 
+
+.nav-toggle-button-container {
+    margin-top: .5em;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.nav-toggle-button {
+    background: none;
+    border: none;
+    color: #F5F5F7
+}
+
+#nav-menu-close {
+    display: none;
+}
+
+#nav-menu-open {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #708090;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-link-hidden {
+    list-style: none;
+    display: inline;
+    padding: .5em;
+    font-size: 1.2em;
+    
+}
+
+.nav-list-hidden {
+    padding-left: 0;
+    
+}
+
+@media (max-width: 600px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .nav-toggle-button-container {
+        display: none;
+    }
+}
