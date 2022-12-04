@@ -89,7 +89,7 @@ function App() {
   return (
     <div className="wordle-app-container">
       <header className='wordle-app-header'>
-        <h1>Wordle</h1>
+        <h1>Wordle Clone</h1>
       </header>
       <AppContext.Provider value={{
         board,
