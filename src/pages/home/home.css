@@ -20,6 +20,7 @@
     background-color: #003277;
     height: 55vh;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
 }
 
 .about-me-container {
@@ -27,6 +28,7 @@
     width: 100%;
     background-color: #708090;
     height: 55vh;
+    overflow-y: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -51,6 +53,10 @@
 .about-me-text, .tech-stack-text {
     margin: 0 auto 0 3em;
     padding-right: 2em;
+}
+
+.about-me-p {
+    overflow: scroll;
 }
 
 .resume-container {

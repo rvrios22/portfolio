@@ -1,9 +1,9 @@
 import "./translate.css"
-import { Form, TextArea, Button, Icon } from 'semantic-ui-react'
+import { Form, TextArea } from 'semantic-ui-react'
 import axios from "axios"
 import { useState, useEffect } from "react"
 
-const Translate = () => {
+const Translator = () => {
     const [inputText, setInputText] = useState('')
     const [detectLanguageKey, setDetectLanguageKey] = useState('')
     const [languageList, setLanguageList] = useState([])
@@ -89,4 +89,4 @@ const Translate = () => {
     )
 }
 
-export default Translate;
+export default Translator;

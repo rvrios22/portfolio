@@ -1,6 +1,6 @@
 import React from 'react'
 import './rabbithole.css'
-import gif from '../../../imgs/rabbitholeGif.gif'
+import gif from '../../imgs/rabbitholeGif.gif'
 
 function RabbitHole() {
     return (
