@@ -2,7 +2,6 @@ import './projects.css'
 import { Link } from "react-router-dom";
 import wordleImg from '../../imgs/wordleImg.png'
 import weatherImg from '../../imgs/weatherImg.png'
-import transaltorImg from '../../imgs/translatorImg.png'
 import rabbitHoleImg from '../../imgs/rabbitHoleImg.png'
 
 const Projects = () => {
@@ -20,12 +19,6 @@ const Projects = () => {
           <h3 className='project-titles'>Weather App</h3>
           <Link to='/weather-app'>
             <img src={weatherImg} alt='a link to the Weather app' className='project-tiles' />
-          </Link>
-        </div>
-        <div className='tile-containers'>
-          <h3 className='project-titles'>Translator</h3>
-          <Link to='/translator'>
-            <img src={transaltorImg} alt='a link to the Translation app' className='project-tiles' />
           </Link>
         </div>
         <div className='tile-containers'>

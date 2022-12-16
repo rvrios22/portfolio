@@ -1,3 +1,4 @@
+import './search.css'
 import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
 import { GEO_API_URL, geoApiOptions } from "../api"
@@ -34,6 +35,7 @@ const Search = ({ onSearchChange }) => {
             value={search}
             onChange={handleOnChange}
             loadOptions={loadOptions}
+            className='search-bar'
         />
     )
 }

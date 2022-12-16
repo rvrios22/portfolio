@@ -3,6 +3,7 @@
     font-size: 23px;
     font-weight: 700;
     margin-left: 1em;
+    text-align: center;
 }
 
 .daily-item {
@@ -15,6 +16,12 @@
     cursor: pointer;
     font-size: 14px;
     padding: 5px 20px;
+    margin: 0 auto .5em;
+    max-width: 700px;
+}
+
+.daily-item:last-child {
+    margin-bottom: .5em;
 }
 
 .icon-small {
@@ -39,21 +46,15 @@
 }
 
 .daily-details-grid {
-    grid-row-gap: 0;
-    grid-column-gap: 15px;
-    row-gap: 0;
-    column-gap: 15px;
-    display: grid;
-    flex: 1 1;
-    grid-template-columns: auto auto;
     padding: 5px 15px;
     background: linear-gradient(to right, 
     #d5d4d4 45%, 
     #757575, 
-    #333);
+    rgb(101, 101, 101));
     border-radius: 15px;
     width: 96.5%;
-    margin: 0 auto;
+    margin: 0 auto .5em;
+    max-width: 690px;
 }
 
 .daily-details-grid-item {
@@ -61,27 +62,7 @@
     align-items: center;
     height: 30px;
     justify-content: space-between;
-}
-
-.daily-details-grid-item label:first-child {
-    color: #636363;
-}
-
-.daily-details-grid-item label:last-child {
     color: #212121;
 }
 
-.daily-details-grid-item label.dark{
-    color: #444444;
-}
 
-.daily-details-grid-item label.light{
-    color: #fff;
-}
-
-@media(min-width: 900px) {
-    .daily-details-grid {
-        width: 98.5%;
-        margin: 0 auto;
-    }
-}

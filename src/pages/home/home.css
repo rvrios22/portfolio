@@ -1,85 +1,81 @@
-/* HERO SECTION */
-.hero-text {
-    text-align: center;
+.hero-content {
     color: #F5F6F7;
-    width: 80%;
-    margin: .5em auto 0;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero-img {
-    height: 40vh;
-    border-radius: 150px;
-    margin: 1em auto .5em;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 60%;
+    max-width: 273px;
 }
 
-
-.tech-stack-container {
-    width: 100%;
+.about-me-text,
+.tech-stack-text {
     color: #F5F6F7;
-    background-color: #003277;
-    height: 55vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-me-container {
-    color: black;
-    width: 100%;
-    background-color: #708090;
-    height: 55vh;
-    font-family: Arial, Helvetica, sans-serif;
+.about-me-text>h3,
+.tech-stack-text>h3 {
+    text-align: center;
+    margin: .5em auto .15em;
+    text-decoration: underline;
 }
 
-.tech-stack {
-    width: 100%;
-    height: 10em;
+.about-me-text {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tech-stack-text {
+    width: 90%;
+    margin: auto;
+}
+
+.tech-stack-text>h4 {
+    color: #2a99c5;
+    margin: .5em auto .2em;
 }
 
 .tech-list {
-    margin: 0 auto .5em;
+    margin: 0;
 }
 
-.tech-list li {
-    margin-bottom: .15em;
+.home-spacer {
+    margin: 0;
+    border: 1px solid #F5F6F7;
 }
-
-.about-me-text > h3, .tech-stack-text > h3 {
-    font-size: 3em;
-    margin-left: -.75em;
-}
-
-.about-me-text, .tech-stack-text {
-    margin: 0 auto 0 3em;
-    padding-right: 2em;
-}
-
 
 .resume-container {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F6F7;
-    color: black;
-}
-
-.resume-download-header {
     text-align: center;
-    font-size: 2em;
-    margin: 0 auto;
     width: 100%;
-    font-size: 1em;
 }
 
-.resume-download-header>.resume-download {
-    text-decoration: underline;
-    color: rgb(0, 185, 231);
+@media only screen and (min-width: 500px) {
+   .bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    max-width: 1000px;
+    margin: 1em auto;
+   }
+
+   .tech-stack-text {
+    margin: 0;
+    align-self: start;
+   }
+
+   .about-me-text {
+    max-width: 405px;
+   }
 }
 
-.resume-download-header>.resume-download:hover {
-    color: red;
-    text-decoration: none;
-}
-
-@media (max-height: 720px) {
-    .about-me-container, .tech-stack-container {
-        overflow-y: auto;
+@media only screen and (min-height: 730px) {
+    .resume-container {
+        position: fixed;
+        bottom: 0;
     }
 }
