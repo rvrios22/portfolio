@@ -122,6 +122,10 @@
   perspective: 1000px;
 }
 
+.wordle-icon-link {
+  margin: 2em;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);

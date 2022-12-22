@@ -13,7 +13,7 @@ const Home = () => {
       <div className='bio'>
         <div className='about-me-text'>
           <h3>About Me</h3>
-          <p>Thanks for stopping by! My name is Rafael and I am a full stack web developer. For the past five years I have worked in the pest control industry. Now I'm ready to control a different kind of bug (ba dum 'tss)... I have two years experience in web development and I'm ready to help you create your website! Take a look at the project page to see my work and get in touch via the contact page. I hope to speak to you soon! <br></br> P.S. You can download my resume at the bottom of this page.</p>
+          <p>Thanks for stopping by! My name is Rafael and I am a full stack web developer. For the past five years I have worked in the pest control industry. Now I'm ready to control a different kind of bug (ba dum 'tss)... I have two years experience in web development and I'm ready to help you create your website! Take a look at Github repositories <a href='https://github.com/rvrios22?tab=repositories' target='_blank' rel='noreferrer'>here</a> the project page to see my work and get in touch via the contact page. I hope to speak to you soon! <br></br> P.S. You can download my resume at the bottom of this page.</p>
         </div>
         <div className='tech-stack-text'>
           <h3>Tech Stack</h3>

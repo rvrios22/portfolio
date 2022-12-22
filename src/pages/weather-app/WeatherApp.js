@@ -4,6 +4,7 @@ import CurrentWeather from './current-weather/current-weather';
 import Forecast from './forecast/forecast';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './api';
 import { useState } from 'react';
+import { GitHub } from '@mui/icons-material';
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null)
@@ -33,6 +34,11 @@ function App() {
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast}/>}
+      <div className='weather-icon-link'>
+        <a href='https://github.com/rvrios22/weather-app' target='_blank' rel='noreferrer'>
+          <GitHub sx={{ fontSize: "3.5em", color: 'whitesmoke' }}></GitHub>
+        </a>
+      </div>
     </div>
   );
 }

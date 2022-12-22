@@ -5,11 +5,12 @@ import GameOver from './components/GameOver';
 import Swal from 'sweetalert2';
 import { boardDefault, generateWordSet } from './Words'
 import { createContext, useEffect, useState } from 'react';
+import { GitHub } from '@mui/icons-material';
 
 export const AppContext = createContext()
 
 function App() {
-  const [board, setBoard] = useState(boardDefault) 
+  const [board, setBoard] = useState(boardDefault)
   const [currAttempt, setCurrAttempt] = useState({ attempt: 0, letterPos: 0 })
   const [wordSet, setWordset] = useState(new Set())
   const [disabledLetters, setDisabledLetters] = useState([])
@@ -110,6 +111,11 @@ function App() {
           {gameOver.gameOver ? <GameOver className='gameOver' /> : <Keyboard />}
         </div>
       </AppContext.Provider>
+      <div className='wordle-icon-link'>
+        <a href='https://github.com/rvrios22/WordleClone' target='_blank' rel='noreferrer'>
+          <GitHub sx={{ fontSize: "3.5em", color: 'whitesmoke' }}></GitHub>
+        </a>
+      </div>
     </div>
   );
 }

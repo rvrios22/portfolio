@@ -3,3 +3,9 @@
   margin: 20px auto;
   padding: 0 2em;
 } */
+
+.weather-icon-link {
+  display: flex;
+  justify-content: center;
+  margin: 1em auto .5em;
+}

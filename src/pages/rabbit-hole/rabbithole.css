@@ -6,12 +6,26 @@
 }
 
 .rabbit-bio {
+    margin: 0 auto;
     text-align: center;
-    color: #F5F6F7
+    color: #F5F6F7;
+    width: 90%;
+    max-width: 662px;
 }
 
 .rabbit-gif {
     margin: 2em auto;
     border-radius: 20px;
     box-shadow: 1px 1px 5px 2px rgb(29, 29, 29);
+    width: 90%;
+    max-width: 373px;
+
+}
+
+.rabbit-hole-icon-link {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 613px;
 }

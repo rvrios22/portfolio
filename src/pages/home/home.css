@@ -30,6 +30,10 @@
     text-align: center;
 }
 
+p > a:visited {
+    color: #2a99c5;
+}
+
 .tech-stack-text {
     width: 90%;
     margin: auto;
@@ -73,7 +77,21 @@
    }
 }
 
-@media only screen and (min-height: 730px) {
+@media only screen and (min-width: 502px) {
+    .resume-container {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-height: 920px) {
+    .resume-container {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-height: 800px) and (min-width: 1280px) {
     .resume-container {
         position: fixed;
         bottom: 0;

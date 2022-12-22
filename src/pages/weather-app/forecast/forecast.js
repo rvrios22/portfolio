@@ -14,7 +14,7 @@ const Forecast = ({ data }) => {
                 {data.list.splice(0, 7).map((item, idx) => (
                     <AccordionItem key={idx}>
                         <AccordionItemHeading>
-                            <AccordionItemButton>
+                            <AccordionItemButton className="hover">
                                 <div className="daily-item">
                                     <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.png`} />
                                     <label className="day">{forecastDays[idx]}</label>
