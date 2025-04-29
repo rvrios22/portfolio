@@ -2,7 +2,7 @@ import Project from "./Project";
 import projects from "../../../public/projects.ts";
 function Projects() {
   return (
-    <>
+    <section style={{ padding: "1em" }}>
       <h2 style={{ marginBottom: ".25em" }}>Projects</h2>
       {projects.map(({ title, desc, link, tech }, idx) => (
         <Project
@@ -14,7 +14,7 @@ function Projects() {
           idx={idx}
         />
       ))}
-    </>
+    </section>
   );
 }
 

@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
-    <section style={{ marginBottom: "1em" }}>
-      <h2 style={{ marginBottom: '.25em'}}>About Me</h2>
+    <section style={{ marginBottom: "1em", padding: "0 1em 1em" }}>
+      <h2 style={{ marginBottom: ".25em" }}>About Me</h2>
       <p>
         I'm a software developer specializing in web technologies. When I join a
         project, my goal is to deliver the best solution to meet business needs

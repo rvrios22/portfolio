@@ -69,6 +69,7 @@ a:not([class]) {
 a:-webkit-any-link {
   text-decoration: none;
   max-width: max-content;
+  color: inherit;
 }
 
 a {
@@ -107,7 +108,6 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
-
 
 /* global animation */
 

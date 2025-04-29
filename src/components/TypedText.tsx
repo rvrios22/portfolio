@@ -16,7 +16,6 @@ function TypedText({ text, style }: TypedTextProps) {
   const charArr: string[] = text.split("").slice(0, visibleCharIdx);
 
   useEffect(() => {
-    let isCancelled = true;
     const startDelay = setTimeout(() => {
       const typeNextChar = () => {
         setVisibleCharIdx((prev) => {
@@ -32,7 +31,6 @@ function TypedText({ text, style }: TypedTextProps) {
       setTimeout(typeNextChar, initialDelay);
     }, 1000);
     return () => {
-      isCancelled = true;
       clearTimeout(startDelay);
     };
   }, [text]);
